@@ -24,9 +24,30 @@ namespace Practice_Exercises___Test
             Console.WriteLine("Your BMI is " + (weight/(height*height)));
 
             //Question 3:
+            int total = 0;
 
+            for (int i = 1; i <=20; i++ )
+            {
+                Console.WriteLine($"Please enter number  {i}: ");
+                total = total + int.Parse(Console.ReadLine());
+                      
+            }
+            Console.WriteLine("The sum of all your number are " + total);
 
+            //Question 4:
+            int factorial = 1;
+            int n = 1;
 
+            while (n <= 10)
+            {
+                factorial *= n;
+                n++;
+            }
+            Console.WriteLine("10 factorial is " + factorial);
+
+            //Question 5:
+           
+        
        
         }
 
